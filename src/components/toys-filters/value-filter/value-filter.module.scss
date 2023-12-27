@@ -1,0 +1,62 @@
+.body {
+	width: 400px;
+	font-family: "PT Serif", serif;
+	border: 2px solid rgba(36, 197, 219, 0.15);
+	background-color: rgba(34, 153, 235, 0.07);
+	border-radius: 30px;
+	padding: 15px;
+	h1 {
+		font-size: 25px;
+	}
+	svg {
+		cursor: pointer;
+	}
+	color: white;
+	.filter {
+		.container {
+			margin-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			width: 300px;
+			align-items: center;
+			font-size: 20px;
+			.color {
+				width: 24px;
+				height: 24px;
+				border: 1px solid white;
+				cursor: pointer;
+			}
+			img {
+				cursor: pointer;
+				width: 42px;
+				height: 42px;
+				border: none;
+				outline: none;
+			}
+		}
+		.size {
+			margin-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			width: 250px;
+			align-items: center;
+			font-size: 20px;
+		}
+		.like {
+			margin-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			width: 200px;
+			align-items: center;
+			font-size: 20px;
+			input {
+				width: 25px;
+				height: 25px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+.active {
+	background-color: rgba(253, 243, 243, 0.626);
+}

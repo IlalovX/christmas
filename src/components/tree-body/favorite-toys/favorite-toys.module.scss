@@ -1,0 +1,49 @@
+h1 {
+	font-family: serif;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+	.box {
+		text-align: center;
+		height: 90px;
+		width: 90px;
+		color: white;
+		border: 1px solid #278d9f;
+		border-radius: 10px;
+		line-height: 27px;
+		background-color: rgba(253, 243, 243, 0.626);
+		position: relative;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			width: 60px;
+			height: 60px;
+		}
+		span {
+			font-size: 14px;
+			font-weight: bold;
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			display: inline-block;
+			background-color: #24c5d8;
+			border-radius: 50%;
+			color: white;
+			bottom: 0;
+			right: 0;
+		}
+	}
+}

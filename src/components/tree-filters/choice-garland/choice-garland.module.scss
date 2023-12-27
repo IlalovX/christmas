@@ -1,0 +1,27 @@
+h1 {
+	font-family: serif;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.container {
+	width: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	.box {
+		cursor: pointer;
+		border-radius: 50%;
+		width: 24px;
+		height: 24px;
+	}
+
+	button {
+		cursor: pointer;
+		color: white;
+		outline: rgb(255, 0, 0) dashed 1.06667px;
+		background-color: rgba(253, 243, 243, 0.626);
+		border-radius: 5px;
+		width: 80px;
+		padding: 5px 0;
+	}
+}

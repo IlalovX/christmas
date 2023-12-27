@@ -1,0 +1,13 @@
+.container {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	img {
+		width: 600px;
+		height: 100%;
+		margin: 0 auto;
+	}
+}

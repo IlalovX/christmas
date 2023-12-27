@@ -1,0 +1,45 @@
+.slide-container {
+	border: 2px solid black;
+	width: 1053px;
+	margin: 0 auto;
+	overflow: hidden;
+	.slide-line {
+		display: grid;
+		grid-template-columns: repeat(9, 270px);
+		grid-template-rows: 1fr;
+		grid-column-gap: 120px;
+		position: relative;
+		left: 0;
+		transition: all ease 1s;
+	}
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 10px;
+	margin-left: 20px;
+	.box {
+		cursor: pointer;
+		text-align: center;
+		height: 90px;
+		width: 90px;
+		color: white;
+		border: 1px solid #278d9f;
+		border-radius: 10px;
+		line-height: 27px;
+		background-color: rgba(253, 243, 243, 0.626);
+		position: relative;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			width: 60px;
+			height: 60px;
+		}
+	}
+}

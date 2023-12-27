@@ -1,0 +1,36 @@
+.body {
+	.container {
+		z-index: 2;
+		text-align: center;
+		.welcome {
+			border: 5px solid rgba(36, 197, 219, 0.15);
+			border-radius: 30px;
+			background-color: rgba(36, 197, 219, 0.26);
+			font-family: "Neucha", cursive;
+			font-size: 53px;
+			line-height: 58px;
+			color: white;
+			width: 600px;
+			padding: 80px 0;
+			margin: 0 auto;
+			margin-top: 100px;
+		}
+		a {
+			display: inline-block;
+			font-family: "PT Serif", serif;
+			font-size: 24px;
+			line-height: 28.8px;
+			border-radius: 30px;
+			border: 2px solid rgba(34, 153, 235, 0.92);
+			background-color: rgba(34, 153, 235, 0.07);
+			color: white;
+			width: 200px;
+			padding: 10px 0;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+		a:hover {
+			font-weight: bold;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #192f2d;
+	font-family: "PT Serif", serif;
+	font-size: 25px;
+	padding: 10px 150px;
+	.container {
+		display: flex;
+		justify-content: space-between;
+		width: 150px;
+		color: white;
+	}
+	img {
+		width: 234px;
+		height: 57px;
+	}
+}
